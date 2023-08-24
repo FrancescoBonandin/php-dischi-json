@@ -1,0 +1,36 @@
+{
+    "discs" :[
+
+        {
+            "img": "https://i.scdn.co/image/ab67616d00001e021ddfd2dd935880f46139d6e7",
+            "title" : "Caramello",
+            "author" : "Elettra Lamborghini"
+        },
+        {   
+            "img" : "https://i.scdn.co/image/ab67616d00001e02777aec6cd9c724775311cf89",
+            "title" : "Tropicana",
+            "author" : "Boomdabash"
+        },
+        {   
+            "img" : "https://i.scdn.co/image/ab67616d00001e02417f2528a3588af33775220f",
+            "title" : "Shakerando",
+            "author" : "Rhove"
+        },
+        {   
+            "img" : "https://i.scdn.co/image/ab67616d00001e020abc6f5e1604d28b84064bee",
+            "title" : "Hace Calor",
+            "author" : "Sfera Ebbasta"
+        },
+        {
+            "img" : "https://i.scdn.co/image/ab67616d00001e02d34b0ef55fb5b692c319ea1d",
+            "title" : "Go The Distance",
+            "author" : "Peyton Parrish"
+        },
+        {
+            "img" : "https://i.scdn.co/image/ab67616d00001e02deb84bcbbcd124c2f9c98ddf",
+            "title" : "Valhalla Calling",
+            "author" : "Peyton Parrish"
+        }
+
+    ]
+}
