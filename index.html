@@ -35,7 +35,7 @@
         
     </head>
     
-    <body>
+    <body >
 
         <div id="app">
       
@@ -46,11 +46,11 @@
 
                     <div class="row mt-4">
 
-                        <div v-for="(data,index) in database.discs " :key="index"  class="col-4 mb-4">
+                        <div v-for = "(data,index) in database.discs" :key="index"  class="col-4 mb-4">
 
-                            <div class="card">
-
-                                <img :src="data.img" alt="" class=" img-fluid card-img-top">
+                            <div @click="showModal(index)"  class="card">
+                                
+                                <img  :src="data.img" alt="" class=" img-fluid card-img-top">
 
                                 <div class="card-body">
 
@@ -76,11 +76,58 @@
 
                                 </div>
 
+                                
                             </div>
 
                         </div>
+                        
+                        <div v-if="showModalFlag === true" @click="showModalFlag=false" class="my-modal">
+                        
+                            <div class="container mt-5">
+                            
+                                <div class="row justify-center ">
 
+                                    <div class="col-10">
+
+                                        <div class="card">
+                                         
+                                            <img  :src="modalObj.img" alt="" class=" img-fluid card-img-top">
+
+                                            <div class="card-body">
+
+                                                <div>
+
+                                                    <span>
+
+                                                        Title:{{modalObj.title}}
+
+                                                    </span>
+
+                                                </div>
+
+                                                <div>
+
+                                                    <span>
+
+                                                        Author:{{modalObj.author}}
+
+                                                    </span>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
+
 
                 </div>
                 
